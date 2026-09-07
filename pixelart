@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel art - SSO's Portfolio</title>
+
+    <style>
+        body {
+            background-color: #222222;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 15px;
+            padding: 12px 24px;
+            background-color: #55ccff;
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: #88ddff;
+        }
+
+        .skin {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px;
+            background-color: #333333;
+            border-radius: 10px;
+        }
+
+        .skin img {
+            width: 256px;
+            image-rendering: pixelated;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Pixel art</h1>
+
+    <p>Here's some of the pixel art I've done</p>
+
+    <a href="index.html" class="button">
+        ← Back to Home
+    </a>
+
+    <div class="skin">
+        <h2>Adachi Rei</h2>
+        <img src="AdachiReiExample.gif" alt="Adachi Rei">
+        <br>
+
+        <a href="AdachiReispritesheet.png" download class="button">
+            Download Skin
+        </a>
+        
+    <iframe src="https://needcoolershoes.com/skins/53586/embed" width="200" height="300" style="border: 0px"></iframe>
+
+    </div>
+
+    <div class="skin">
+        <h2>Pixel art 2</h2>
+        <img src="skins/skin2.png" alt="Minecraft Skin 2">
+        <br>
+
+        <a href="skins/skin2.png" download class="button">
+            Download Skin
+        </a>
+    </div>
+
+</body>
+</html>
